@@ -1,0 +1,52 @@
+#contentWrapper{
+	display: none;
+}
+#adBlock{
+	display: none;
+	height: 135px;
+	margin-left: 240px;
+}
+.first-block,
+.second-block,
+.third-block{
+	padding: 10px;
+	display: inline-block;
+	width:360px;
+	height:135px;
+	position:relative;
+	margin: 0;
+}
+.first-block:hover,
+.second-block:hover{
+	cursor: pointer;
+}
+
+.ad-header-link{
+	width:200px;
+	height:30px;
+
+}
+#adBlock div a{
+	position: absolute;
+	color:#469AD7;
+	left: 110px;
+}
+#adBlock div img{
+	top: 10px;
+	position: absolute;
+	width:90px;
+	border:none;
+}
+#adBlock div p{
+	position:absolute;
+	width:250px;
+	left: 110px;
+	top: 15px;
+}
+.third-banner{
+	position: absolute;
+	left: 720px;
+	height: 900px!important;
+	flex-direction: column;
+	top: 61px;
+}

@@ -1,0 +1,146 @@
+/*internet-search*/
+.main-article{
+	margin:0 0 0 250px;
+	padding-top: 0!important;
+}
+.i-text-input {
+	border: 2px solid #2e5b9d;
+}
+
+.i-search-counter {
+	position: absolute;
+	left: -218px;
+	text-align: left;
+}
+
+.i-search-counter p {
+	margin: 0;
+}
+
+.i-big-text {
+	font-weight: bold;
+}
+
+.i-header-medium>a {
+	color: #2e5c9d;
+	text-decoration: none;
+}
+
+.i-header-medium>a:hover {
+	color: #ff9800;
+}
+
+.i-header-medium,
+.i-sub-link,
+.i-text-container
+{
+	font-family: PT Sans, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.i-header-medium {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+.i-sub-link {
+	color: #417505;
+	text-decoration: none;
+	font-size: 14px;
+	width:700px;
+}
+
+.i-text-container {
+	width: auto;
+	font-size: 13px;
+	font: PT sans;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+.i-pagination {
+	display: flex;
+	margin: 0 0 30px 250px;
+}
+
+.i-pagination-container {
+	position: relative;
+	height: 27px;
+	overflow: hidden;
+}
+
+.i-movable-container {
+	display: inline-flex;
+	margin: 0 10px 0 0;
+}
+
+.i-page {
+	margin: 0 12.5px;
+	min-width: 25px !important;
+	height: 25px;
+	text-align: center;
+	border-radius: 100px;
+	line-height: 25px;
+}
+
+.i-page:hover {
+	background-color: #cfe7fb;
+	cursor: pointer;
+}
+
+.i-next-page,
+.i-previous-page{
+	width: 65px;
+	text-align: center;
+}
+
+.i-next-page:hover,
+.i-previous-page:hover{
+	border-radius: 7px;
+	background-color: #cfe7fb;
+	cursor: pointer;
+}
+
+.i-page:active,
+.i-page.active,
+.i-next-page:active,
+.i-previous-page:active {
+	background-color: #79b6fe;
+}
+.i-previous-page,
+.i-next-page{
+	line-height: 25px;
+}
+.i-show-more {
+	width: 360px;
+	height: 40px;
+	font-size: 16px;
+	margin: 0 auto;
+	border: lightslategray 1px solid;
+	line-height: 36px;
+	text-align: center;
+	display: none;
+}
+
+.i-show-more:hover {
+	background-color: #ecedee;
+	cursor: pointer;
+}
+
+.i-show-more:active {
+	background-color: #b7b8b8;
+}
+.i-loading-cloak {
+	position: absolute;
+	opacity: 0.7;
+	 display: none;
+	background-color: white;
+	background-image: url('/img/loader.gif') no-repeat 50% 50%;
+	width: 100%;
+	height: 250%;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
