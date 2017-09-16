@@ -1,1 +1,1 @@
-## mi7-ru/mi7-search
+## this project displays api.mail.ru integration (jquery/php)
